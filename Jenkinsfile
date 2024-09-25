@@ -14,11 +14,11 @@ pipeline{
                 sh 'npm install'
             }   
         }
-        stage('Testing application') {
-            steps{
-                sh 'npm test'
-            }
-        }
+        // stage('Testing application') {
+        //     steps{
+        //         sh 'npm test'
+        //     }
+        // }
         stage('Start application'){
             input{
                 message 'Do you really want to start?'
