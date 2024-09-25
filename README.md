@@ -1,1 +1,3 @@
-# jenkins_demo
+# Command to start this application:
+
+docker-compose up -d
